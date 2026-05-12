@@ -63,6 +63,10 @@ pair=[(1,'a'),(2,'b')]
 d=dict(pair)
 print(d)
 
+a=[11,22,33,44,55]
+del a[2]
+print(a)
+
 
 
 
