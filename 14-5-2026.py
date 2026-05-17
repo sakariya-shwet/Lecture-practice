@@ -1,4 +1,4 @@
-'''# write a program to find the lenght of a 1d arry without using built in finction
+# write a program to find the lenght of a 1d arry without using built in finction
 
 array=[]
 size=int(input("Enter array size==>"))
