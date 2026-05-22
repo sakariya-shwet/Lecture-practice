@@ -23,19 +23,24 @@ if choice == "i":
 
 elif choice == "ii":
 
-    data = int(input("Enter data first: "))
+    def Data(text):
+     return list(map(int, text))
 
+    user_data = Data(input("Enter data first: "))
+
+    print(user_data)
     print("\nYou've entered in DATA SUMMARY")
 
-    total_elements = len(data)
-    minimum_value = min(data)
-    maximum_value = max(data)
-    sum_of_all_values =sum(data)
-
+    total_elements = len(user_data)
+    minimum_value = min(user_data)
+    maximum_value = max(user_data)
+    sum_of_all_values = sum(user_data)
+    average_value = sum_of_all_values / total_elements
 
     print("total_elements =", total_elements)
     print("minimum_value =", minimum_value)
     print("maximum_value =", maximum_value)
-    print("sum of all values  =",sum_of_all_values )
+    print("sum of all values  =", sum_of_all_values)
+    print("average value =", average_value)
 
-    
+        
