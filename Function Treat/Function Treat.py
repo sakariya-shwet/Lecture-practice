@@ -43,4 +43,19 @@ elif choice == "ii":
     print("sum of all values  =", sum_of_all_values)
     print("average value =", average_value)
 
+elif choice == "iii":
+    num = int(input("Enter a number: "))
+
+    def factorial(n):
+        if n < 0:
+            return "invalid value"
+        elif n == 0 or n == 1:
+            return 1
+        else:
+            return n * factorial(n - 1)
+
+    result = factorial(num)
+    print("factorial is", result)
+
+
         
