@@ -3,7 +3,7 @@ print("<<<<print(Welcome! \U0001F44B to python program list>>>>")
 print("\n")
 print("\U0001F539 Q ==>1")
 
-'''num=int(input("Enter a random number:=="))
+num=int(input("Enter a random number:=="))
 if num >0:
         print("this number is positive num")
 
@@ -21,7 +21,7 @@ else:
 print("\n")
 print("\U0001F539 Q==>3")
 
-day = int(input("Enter Today number EX.(Sunday=1, Saturday=7): "))
+day = int(input("Enter Today number EX.(Sunday=1, Saturday=7)===> "))
 
 if day == 1:
     print("It's Sunday")
@@ -56,20 +56,20 @@ else:
 print("\n")
 print("\U0001F539 Q==>5")
 while True:
-        guess_game=int(input("\nEnter a letter (1-5) (game-guess)"))
+        guess_game=int(input("\nEnter a letter (1-5) (game-guess):=="))
 
         match guess_game:
                  case 1:
-                        print("Wrong gussed\U0001F614 you are so close enter another letter")
+                        print("\n*Wrong gussed \U0001F614 you are so close enter another letter")
                  case 2:
-                        print("Wrong gussed\U0001F614 you are so close enter another letter")
+                        print("\n*Wrong gussed \U0001F614 you are so close enter another letter")
                  case 3:
-                        print("Yes you guessed right!!")
+                        print("\n*Yes you guessed right!!")
                         break
                  case 4:
-                        print("Wrong gussed\U0001F614 you are so close enter another letter")
+                        print("\n*Wrong gussed \U0001F614 you are so close enter another letter")
                  case 5:
-                        print("Wrong gussed\U0001F614 you are so close enter another letter")
+                        print("\n*Wrong gussed \U0001F614 you are so close enter another letter")
 
 print("\n")
 print("\U0001F539 Q==6")
@@ -99,7 +99,7 @@ for i in range(1,11+1):
         print(i)
 
 print("\n")
-print("\U0001F539 Q==10")
+print("\U0001F539 Q== 10")
 for i in range(1,11+1):
         if i ==9:
                 continue
@@ -113,7 +113,7 @@ for i in range(1,11+1):
                 pass
 
         print(i)
-'''
+
 print("\n")
 print("\U0001F539 Q==12")
 
@@ -123,6 +123,83 @@ for i in range(1,4):
 
 print("\n")
 print("\U0001F539 Q==13")
+
+name=input("Enter your name")
+hobbie=input("Enter your hobbie")
+age=input("Enter your age")
+student_id=input("Enter your student_id")
+
+print(f" My name is {name} and my hobbie is {hobbie} ,also age is {age}, my student id {student_id}")
+
+print("\n")
+print("\U0001F539 Q==14")
+
+
+sentence = input("Enter the sentence: ")
+print("sentence uppercase:", sentence.upper())
+print("sentence uppercase:", sentence.lower())
+print("sentence uppercase:", sentence.split())
+
+print("\n")
+print("\U0001F539 Q==15")
+
+list=[1,2,3,4,5,6,7,8,9,10]
+print(list)
+list.append(11)
+print(list)
+
+print("\n")
+print("\U0001F539 Q==16")
+
+tuple=(1,2,3,4,5,6,7,8,9,10)
+print(tuple)
+print("third element",[3])
+print("\n")
+print("\U0001F539 Q==17")
+
+animal=["Elephant","Tiger","Lion","Chhetah"]
+print("\nAnimal before modified:==",animal)
+animal[2]="Goreela"
+print(animal)
+
+print("\n")
+print("\U0001F539 Q==18")
+
+#animal=("Elephant","Tiger","Lion","Chhetah")
+#print("\nAnimal before modified:==",animal)
+#animal[2]="Goreela"
+#print(animal)
+
+print("Tuple object can't be changed!!!")
+
+print("\n")
+print("\U0001F539 Q==19")
+
+num=tuple("1 2 3 4 5")
+print(num) 
+
+print("\n")
+print("\U0001F539 Q==20")
+
+rows=int(input("Enter a row ==>"))
+for i in range(1, rows+1):
+         print("*" *i)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                 
         
 
